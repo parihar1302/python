@@ -1,3 +1,6 @@
+#Tuple is immutable (unchanged)
+#enclosed with ()
+
 myNameOne = (56, 7.9, "Robert", 3, "Jr")
 myNameSecond = (36, "downy", 5.2, 2)
 
