@@ -41,7 +41,7 @@ for i in name:
 ###########################
     
 name = "ABHISHEK"
-for i in name:
-    print (i, end=",")
+for a in name:
+    print (a, end=",")
 print ("\n")
 
