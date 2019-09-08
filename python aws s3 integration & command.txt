@@ -4,9 +4,15 @@ step 1.) SET UP
 ---------------------------------
 * apt install python -y
 
+* apt update
+
 * apt install python-pip -y
 
+* apt update
+
 * pip install awscli
+
+* apt update
 
 * pip install boto3
 
