@@ -16,7 +16,7 @@ print (myNameSecond[:3])
 print (myNameOne[0:])
 
 print (myNameOne*2)
-print (myNameSecond+myNameOne)  ##concatnation
+print (myNameSecond+myNameOne)     ##concatnation
 
 
 myNameOne[3]="john"   ##Replacement value
@@ -34,9 +34,11 @@ print (heros)
 
 print (marvel[1])    ##indexing
 
-del marvel[2]   ##del :- delete the data
+del marvel[2]   ##del :- delete the index data
 print (marvel)
 
+dc.remove("batman")         ##remove:- remove the specific data
+print (dc)
 
 marvel.append("hulk")    ##append:- add the data at last location
 print (marvel)
@@ -55,6 +57,7 @@ print ("\n")
 
 
 print (marvel.count("ironman"))      ##count:- it counts the data in the string 
+
 
 
 
