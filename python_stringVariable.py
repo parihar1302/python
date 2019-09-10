@@ -11,4 +11,7 @@ print (str[:4])    ##from first value to second last value
 print (str, "india")
 print (str + "india")
 print (str, num)
-print (str + num)     ##error in concatnation
+#print (str + num)     ##error in concatnation
+print (str.upper())
+print (str.lower())
+print (str.swapcase())
