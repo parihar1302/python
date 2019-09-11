@@ -14,6 +14,8 @@ print ("infromation")
 
 print (information["actor"])
 
+##print (information[1])     error:- cann't use index as number 
+
 ##print (information[actor])     error of:- ""
 
 ##print (information["dhoni"])  error :- give key data only not value
@@ -37,4 +39,18 @@ print (information)
 
 information["singer"] = information["rapper"]   ##create new key with same value from existing key
 print (information)
+print ("\n")
 
+print (len(information))
+
+
+heros = {"johnwick":51, "thor":20, "spiderman":89}
+print (heros["johnwick"])
+## print (heros("johnwick"))    error of perenthisis
+## print (heros[51])      error cnn't use number
+
+information.update(heros)      ##update:- merge both dictionary variable
+print (information)
+
+#action = information + heros
+#print (action)
