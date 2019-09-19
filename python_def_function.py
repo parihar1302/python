@@ -71,6 +71,95 @@ def skore(num=89):      ##can give the value here also
     return
 skore()
 
+######################################3
+##def_advance
+
+def count(num1, num2):      #method-1.)   addition
+    total = num1 + num2
+    print ("sum is :-", total)
+    return
+count(5, 3)
+
+###########################
+
+def count(num1, num2):      #method-2.)   addition
+    total = num1 + num2
+    return total
+print (count(6, 7))
+
+######################################
+
+def count(*num):          ## method-1.)  addition multi num
+    total = 0
+    for a in num:
+        total = total + a
+        print (total)
+    return
+count(3, 2, 5, 10, 1)
+
+#######################################
+
+def count(*num):       ## method-2.) addition multi num
+    total = 0
+    for a in num:
+        total = total + a
+    print (total)
+    return
+count(3, 2, 5, 10, 1)
+
+#######################################
+
+def count(*num):
+    total = 0
+    for a in num:
+        if a < 50:
+            total = total + a
+            print ("this exceptable:-", total)
+    else:
+        print ("total not exceptable", total)
+count(2, 6, 10, 5, 20, 8, 15, 30, 49, 50)
+
+#################################################
+
+def score(*num):
+    total = 0
+    for i in num:
+        if i < 27:
+            total = total + i
+            print ("need more", total)
+            continue
+    else:
+        print ("we got", total)
+score(3, 2, 8, 2, 10, 13, 15, 7,)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
