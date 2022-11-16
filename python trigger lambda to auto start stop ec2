@@ -1,0 +1,15 @@
+Python+botot3 to autostart lamda
+
+import boto3
+ 
+ec2=boto3.client('ec2')
+ 
+l=[]
+ 
+Instances=ec2.describe_intances(region='')
+ 
+for instances in Instances[]:
+    if(instance['state']=='running'):
+        ip=instances
+        l.append(ip)
+        ec2.stop_instances(Instances=l)    
