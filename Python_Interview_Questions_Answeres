@@ -1,0 +1,19 @@
+## Python interview question & answere
+----------------------------------------
+
+Q.) What is Python & why shuould we use?
+A.) Python is a high level, object oriented programming language which is used across multiple Big organization.
+    It is an open source & one of the simplest language currently available  in the market.
+    It is used for data science, web & software developement, scripting & complex mathatics.
+
+
+Q.) What are Mutable & Immutable datatype in Python ?
+A.) i.) Mutable DatatTypes :- Those object which can be changed/modified. It means you're actually changing the obect in place rather than creating new one.
+                          Ex- List, Dictonary, Set
+
+   ii.) Immutable DataTypes:- Those object which can not be changed/modified. If there's an operation like that then it will create new object rathan than modfing on existing one.
+                        Ex:- Tuples, String, Integer, Float,
+
+
+    
+    
